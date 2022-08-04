@@ -1,0 +1,122 @@
+#Constants {
+    includeNativeBool: true;
+    labelGap: 1;
+}
+
+Form {
+    background: black;
+}
+
+TitleCommand {
+    color: white;
+}
+
+ToolbarGradient {
+    border: none;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.6));
+    padding: 2mm;
+}
+
+ThumbIcon {
+    background: transparent;
+    margin: 0px;
+    padding: 8mm;
+    padding-right: 3mm;
+}
+
+HeroImageLogo {
+    margin: 35mm 7mm 5mm 7mm;
+    padding: 3.5mm;
+    background: transparent;
+}
+
+HeroImagePlayButton {
+    border: none;
+    border-radius: 1.5mm;
+    background-color: #D8D8D8;
+    color: black;
+    font-family:  "native:MainRegular";
+    font-size: 3mm;
+    padding: 2mm 4mm 2mm 4mm;
+}
+
+Lead {
+    color: white;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.01));
+    padding: 5mm 2mm 0.3mm 2mm;
+    font-family:  "native:MainRegular";
+    font-size: 2.4mm;
+}
+
+PlayNowButton {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+    border: 2px #ffffff  cn1-round-border;
+    padding: 2mm;
+    font-family:  "native:MainRegular";
+    font-size: 3.5mm;
+    margin: 15mm 7mm 15mm 7mm;
+}
+
+ShowTitleOverlay {
+    color: white;
+    font-family:  "native:MainRegular";
+    font-size: 3.5mm;
+    padding: 3mm;
+    margin: 0px;
+}
+
+MatchPercentage {
+    color: #008E06;
+    font-family:  "native:MainLight";
+    font-size: 2mm;
+    padding: 3mm;
+    margin: 0px;
+}
+
+ShowDescription {
+    color: white;
+    font-family:  "native:MainLight";
+    font-size: 2.6mm;
+    padding: 3mm;
+    margin: 0px;
+}
+
+DescriptionFormButton {
+    color: white;
+    font-family:  "native:MainLight";
+    font-size: 3.5mm;
+    padding: 3mm;
+    margin: 0px;
+}
+
+Tab {
+    color: white;
+    font-family:  "native:MainLight";
+    font-size: 2.1mm;
+    border: none;
+    background-color: black;
+    padding: 1.5mm 0.5mm 1.5mm 0.5mm;
+    margin: 0px;
+}
+
+/* =============== IMAGES ============= */
+
+ImageImports1 {
+    background-image: url(images/data/show-logo.png),
+        url(images/data/hero-background.jpg),
+        url(images/data/thumb1.jpg),
+        url(images/data/thumb2.jpg),
+        url(images/data/thumb3.jpg),
+        url(images/data/thumb4.jpg),
+        url(images/data/thumb5.jpg),
+        url(images/data/thumb6.jpg),
+        url(images/data/thumb7.jpg),
+        url(images/data/thumb8.jpg);
+    cn1-source-dpi: 0;
+}
+
+ImageImports2 {
+    background-image: url(images/netflix-logo.png);
+    cn1-source-dpi: 320;
+}

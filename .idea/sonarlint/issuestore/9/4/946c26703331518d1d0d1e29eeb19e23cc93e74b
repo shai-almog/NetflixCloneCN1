@@ -1,0 +1,21 @@
+
+N
+java:S1128"3Remove this unused import 'com.codename1.ui.Label'.(¢¼åïÿÿÿÿÿ
+D
+java:S1172".Remove this unused method parameter "context".(×›‚â
+G
+java:S1602<",Remove useless curly braces around statement(šÓÄúÿÿÿÿ
+—
+java:S1186I"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(‚“¶î
+Z
+java:S1128"?Remove this unused import 'com.codename1.ui.layouts.BoxLayout'.(å–†Æùÿÿÿÿ
+U
+java:S1128":Remove this unused import 'com.codename1.io.NetworkEvent'.(°ò¼Ïúÿÿÿÿ
+K
+java:S1128"0Remove this unused import 'java.io.IOException'.(ªº»Úýÿÿÿÿ
+D
+java:S1068")Remove this unused "theme" private field.(Û„ƒ‚ýÿÿÿÿ
+P
+java:S1128	"5Remove this unused import 'com.codename1.ui.Display'.(¤§‰Ëþÿÿÿÿ
+o
+java:S1450"TRemove the "theme" field and declare it as a local variable in the relevant methods.(Û„ƒ‚ýÿÿÿÿ
